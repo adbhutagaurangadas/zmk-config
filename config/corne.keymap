@@ -138,6 +138,31 @@
       bindings = <&kp LG(Z)>;
       key-positions = <25 26>;
     };
+
+    backspace {
+      bindings = <&kp BACKSPACE>;
+      key-positions = <21 22>;
+    };
+
+    del {
+      bindings = <&kp DELETE>;
+      key-positions = <33 34>;
+    };
+
+    select_all {
+      bindings = <&kp LG(A)>;
+      key-positions = <13 14>;
+    };
+
+    cmd_esc_right {
+      bindings = <&hmr LGUI ESCAPE>;
+      key-positions = <19 20>;
+    };
+
+    cmd_esc_left {
+      bindings = <&hml LGUI ESCAPE>;
+      key-positions = <15 16>;
+    };
   };
 
   keymap {
@@ -145,19 +170,19 @@
 
     base {
       bindings = <
-        &kp ESCAPE        &kp Q  &kp W  &kp E           &kp R        &kp T        &kp Y      &kp U        &kp I          &kp O    &kp P          &kp LEFT_BRACKET
-        &kp TAB           &kp A  &kp S  &hml LALT D     &hml LCMD F  &kp G        &kp H      &hmr RCMD J  &hmr RALT K    &kp L    &kp SEMICOLON  &kp APOS
-        &kp LEFT_CONTROL  &kp Z  &kp X  &kp C           &kp V        &kp B        &kp N      &kp M        &kp COMMA      &kp DOT  &kp FSLH       &kp RIGHT_BRACKET
-                                        &kp LEFT_SHIFT  &mo 1        &kp ENTER    &kp SPACE  &mo 2        &kp BACKSPACE
+        &kp ESCAPE        &kp Q  &kp W  &kp E           &kp R  &kp T        &kp Y      &kp U  &kp I         &kp O    &kp P          &kp LEFT_BRACKET
+        &kp TAB           &kp A  &kp S  &kp D           &kp F  &kp G        &kp H      &kp J  &kp K         &kp L    &kp SEMICOLON  &kp APOS
+        &kp LEFT_CONTROL  &kp Z  &kp X  &kp C           &kp V  &kp B        &kp N      &kp M  &kp COMMA     &kp DOT  &kp FSLH       &kp RIGHT_BRACKET
+                                        &kp LEFT_SHIFT  &mo 1  &kp ENTER    &kp SPACE  &mo 2  &kp LEFT_ALT
       >;
     };
 
     raise {
       bindings = <
-        &trans        &trans      &vim_w  &trans  &prabhupad_ru  &trans    &kp HOME  &kp PAGE_DOWN  &kp PG_UP   &kp END    &trans  &trans
-        &kp CAPSLOCK  &agd_gmail  &trans  &trans  &trans         &trans    &kp LEFT  &kp DOWN       &kp UP      &kp RIGHT  &trans  &trans
-        &trans        &trans      &trans  &trans  &trans         &trans    &trans    &trans         &trans      &trans     &trans  &trans
-                                          &trans  &trans         &trans    &trans    &trans         &kp DELETE
+        &trans        &trans      &vim_w  &trans  &prabhupad_ru  &trans    &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &kp DELETE  &kp BACKSPACE
+        &kp CAPSLOCK  &agd_gmail  &trans  &trans  &trans         &trans    &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &kp INSERT  &trans
+        &trans        &trans      &trans  &trans  &trans         &trans    &trans    &trans         &trans     &trans     &trans      &trans
+                                          &trans  &trans         &trans    &trans    &trans         &trans
       >;
     };
 
