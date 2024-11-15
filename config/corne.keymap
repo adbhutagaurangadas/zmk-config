@@ -41,7 +41,7 @@
     vim_w: vim_w {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
-      bindings = <&kp COLON &kp W &kp ENTER>;
+      bindings = <&kp COLON &kp W &kp A &kp ENTER>;
       label = "VIM_W";
     };
 
@@ -57,6 +57,13 @@
       #binding-cells = <0>;
       bindings = <&kp LS(G) &kp H &kp F &kp COMMA &kp LBKT &kp E &kp G &kp F &kp L>;
       label = "PRABHUPAD_RU";
+    };
+
+    vim_q: vim_q {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings = <&kp COLON &kp Q &kp A &kp ENTER>;
+      label = "VIM_Q";
     };
   };
 
