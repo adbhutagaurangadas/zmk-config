@@ -186,7 +186,7 @@
 
     raise {
       bindings = <
-        &trans        &trans      &vim_w  &trans  &prabhupad_ru  &trans    &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &kp DELETE  &kp BACKSPACE
+        &trans        &vim_q      &vim_w  &trans  &prabhupad_ru  &trans    &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &kp DELETE  &kp BACKSPACE
         &kp CAPSLOCK  &agd_gmail  &trans  &trans  &trans         &trans    &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &kp INSERT  &trans
         &trans        &trans      &trans  &trans  &trans         &trans    &trans    &trans         &trans     &trans     &trans      &trans
                                           &trans  &trans         &trans    &trans    &trans         &trans
