@@ -170,6 +170,16 @@
       bindings = <&hml LGUI ESCAPE>;
       key-positions = <15 16>;
     };
+
+    quit {
+      bindings = <&kp LG(Q)>;
+      key-positions = <1 2 3>;
+    };
+
+    close {
+      bindings = <&kp LG(W)>;
+      key-positions = <2 3 4>;
+    };
   };
 
   keymap {
