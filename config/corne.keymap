@@ -180,6 +180,16 @@
       bindings = <&kp LG(W)>;
       key-positions = <2 3 4>;
     };
+
+    tab {
+      bindings = <&kp LG(T)>;
+      key-positions = <3 4 5>;
+    };
+
+    window {
+      bindings = <&kp LG(W)>;
+      key-positions = <30 31 32>;
+    };
   };
 
   keymap {
