@@ -187,7 +187,7 @@
     };
 
     window {
-      bindings = <&kp LG(W)>;
+      bindings = <&kp LG(N)>;
       key-positions = <30 31 32>;
     };
   };
