@@ -162,12 +162,12 @@
     };
 
     cmd_esc_right {
-      bindings = <&hmr LGUI ESCAPE>;
+      bindings = <&kp LGUI>;
       key-positions = <19 20>;
     };
 
     cmd_esc_left {
-      bindings = <&hml LGUI ESCAPE>;
+      bindings = <&kp LGUI>;
       key-positions = <15 16>;
     };
 
@@ -189,6 +189,16 @@
     window {
       bindings = <&kp LG(N)>;
       key-positions = <30 31 32>;
+    };
+
+    meta_left {
+      bindings = <&kp LS(LA(LC(LEFT_GUI)))>;
+      key-positions = <13 14 15 16>;
+    };
+
+    right_meta {
+      bindings = <&kp LS(LA(LC(LEFT_GUI)))>;
+      key-positions = <19 20 21 22>;
     };
   };
 
