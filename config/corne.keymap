@@ -41,7 +41,7 @@
     vim_w: vim_w {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
-      bindings = <&kp COLON &kp W &kp A &kp ENTER>;
+      bindings = <&kp ESCAPE &kp COLON &kp W &kp A &kp ENTER>;
       label = "VIM_W";
     };
 
