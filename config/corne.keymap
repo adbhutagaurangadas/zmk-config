@@ -161,12 +161,12 @@
       key-positions = <13 14 15>;
     };
 
-    cmd_esc_right {
+    cmd_right {
       bindings = <&kp LGUI>;
       key-positions = <19 20>;
     };
 
-    cmd_esc_left {
+    cmd_left {
       bindings = <&kp LGUI>;
       key-positions = <15 16>;
     };
