@@ -205,6 +205,21 @@
       bindings = <&tog 5>;
       key-positions = <0 12 24>;
     };
+
+    play {
+      bindings = <&kp C_PLAY_PAUSE>;
+      key-positions = <7 8 9>;
+    };
+
+    rewind {
+      bindings = <&kp C_REWIND>;
+      key-positions = <6 7 8>;
+    };
+
+    fast-forward {
+      bindings = <&kp C_FAST_FORWARD>;
+      key-positions = <8 9 10>;
+    };
   };
 
   keymap {
